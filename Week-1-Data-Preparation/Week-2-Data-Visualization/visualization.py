@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-titanic = pd.read_csv("train.csv")
+titanic = pd.read_csv("../dataset/train.csv")
 
 sns.countplot(x="Survived", data=titanic)
 
