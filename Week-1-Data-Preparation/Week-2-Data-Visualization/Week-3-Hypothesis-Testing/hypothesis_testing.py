@@ -5,7 +5,7 @@ from scipy.stats import chi2_contingency
 # 1. Load the Titanic dataset
 # --------------------------------
 
-titanic = pd.read_csv("train.csv")
+titanic = pd.read_csv("../dataset/train.csv")
 
 
 # --------------------------------
