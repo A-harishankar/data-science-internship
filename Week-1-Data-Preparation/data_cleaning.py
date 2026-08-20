@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Dataset Inspection
-titanic = pd.read_csv('train.csv')
+titanic = pd.read_csv("../dataset/train.csv")
 
 print(titanic.head())
 print(titanic.shape)
